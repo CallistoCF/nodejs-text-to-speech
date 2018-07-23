@@ -34,7 +34,6 @@ function synthesizeText(
   //Imports the Google Cloud client library
   const speech = require('@google-cloud/text-to-speech');
   const fs = require('fs');
-
   //Creates a client
   const client = new speech.TextToSpeechClient();
 
